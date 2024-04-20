@@ -1,0 +1,79 @@
+.mainpage {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image {
+  width: 500px;
+  padding-bottom: 15px;
+}
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.main-description {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 50px 210px 110px 210px;
+  border: none;
+  border-radius: 50px;
+}
+
+.image-data {
+  position: absolute;
+  top: 30px;
+  color: #9f5c59;
+}
+.description1 {
+  color: #9f5c59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 800px;
+  bottom: 50px;
+  left: 0px;
+  padding-left: 85px;
+}
+.description2 {
+  color: #9f5c59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 800px;
+  bottom: 15px;
+  left: 0px;
+  padding-left: 85px;
+}
+.description-link1 {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  color: #9f5c59;
+}
+.description-link2 {
+  position: absolute;
+  bottom: 0;
+  left: 190px;
+  color: #9f5c59;
+}
+.link-button {
+  color: #9f5c59;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-size: 18px;
+}
+.a-link {
+  color: #9f5c59;
+}
+.header-button {
+  color: black;
+  text-decoration: none;
+}
