@@ -1,0 +1,28 @@
+.main-shop {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  column-gap: 15px;
+  row-gap: 40px;
+}
+@media (max-width: 870px) {
+  .main-shop {
+    grid-template-columns: 1fr, 1fr;
+  }
+}
+@media (max-width: 1150px) {
+  .main-shop {
+    grid-template-columns: 1fr, 1fr, 1fr;
+  }
+}
+@media (min-width: 1150px) {
+  .main-shop {
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  }
+}
+
+.product-info {
+}
+.product-image {
+  width: 150px;
+}

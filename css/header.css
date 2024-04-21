@@ -20,7 +20,6 @@
 .logo-details {
   display: flex;
   justify-content: center;
-
   background-color: rgb(241, 241, 255);
   height: 140px;
 }
@@ -40,6 +39,7 @@
 }
 
 .telefon-button,
+.cart-logo,
 .home-button,
 .instagram-button,
 .all-button {
@@ -54,6 +54,15 @@
   font-family: Lexend Giga, Arial;
   font-weight: 400;
   background-color: rgba(0, 0, 0, 0);
+}
+.cart-number-placement {
+  position: absolute;
+  color: red;
+  font-weight: bold;
+  font-family: Lexend Giga, Arial;
+  bottom: -8px;
+  right: 105px;
+  font-size: 19px;
 }
 .tooltip {
   border: 1px solid black;
