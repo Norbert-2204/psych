@@ -29,5 +29,22 @@
 }
 .product-image {
   width: 300px;
-  padding-left: 50px;
+  padding-left: 70px;
+}
+.product-placement {
+  font-size: 18px;
+  font-weight: 500;
+}
+.product-description {
+  font-size: 15px;
+}
+.product-price {
+  font-size: 13px;
+}
+.add-to-cart-button {
+  background-color: #f3efff;
+  border: solid 1px;
+  border-radius: 50px;
+  color: #9f5c59;
+  cursor: pointer;
 }
