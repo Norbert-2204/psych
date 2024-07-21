@@ -1,0 +1,36 @@
+.product-image {
+  width: 320px;
+  height: 150px;
+}
+.main-checkout-page {
+  display: grid;
+  grid-template-columns: 500px 500px;
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  justify-content: center;
+}
+.delete-button {
+  border: solid 1px;
+  border-radius: 30px;
+  width: 100px;
+  background-color: #f3efff;
+  color: #9f5c59;
+  cursor: pointer;
+}
+.product-name {
+  text-align: center;
+}
+.total.price {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.product-description {
+  text-align: center;
+}
+.product-info {
+  display: flex;
+  align-items: center;
+}

@@ -1,9 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="css/koszyk-glowny.css" />
+    <link rel="stylesheet" href="css/koszyk-header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@300;400;500;700&family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="header-shop">
+      <a href="Sklep.html"><img class="logo" src="images/logo.png" /></a>
+      <span class="products-amount js-products-amount"></span>
+    </div>
+
+    <div class="main-checkout-page js-main-checkout-page"></div>
+    <div class="total-price">
+      <div>
+        Podaj numer telefonu, zadzwonimy do Ciebie, aby umówić date realizacji
+        każdego z wybranych produktów. W przypadku wybrania tego samego produktu
+        więcej niż 1 raz umówimy każde spotkanie osobno.
+        <input />
+      </div>
+      <div>Cena całkowita: 449.99 PLN</div>
+    </div>
+  </body>
+  <script src="js/sklep-koszyk.js" type="module"></script>
 </html>

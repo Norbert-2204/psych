@@ -1,0 +1,29 @@
+.body {
+  font-family: Lexend Giga, Arial;
+
+  margin: 0;
+  background-color: #fdfcff;
+}
+
+.header-shop {
+  background-color: #f3efff;
+  color: #9f5c59;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 160px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+.logo {
+  width: 280px;
+  position: absolute;
+  left: 0px;
+}
+.products-amount {
+  font-size: 45px;
+  position: absolute;
+  top: 40px;
+}
